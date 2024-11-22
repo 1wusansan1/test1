@@ -36,7 +36,7 @@ def heap_sort(arr):
         # 从0开始重新生成最大堆
         heapify(arr, i, 0)
 
-
+#
 def binary_search(alist, item):
     lens = len(alist)
     if lens == 0:
