@@ -10,7 +10,8 @@ class MyList(list):
 test1 = MyList("abcdefg")
 print(len(test1))
 print(dir(test1))
-
+# print(test1.arr)
+# print(test1.)
 print('==================Integer=======add=================================')
 
 

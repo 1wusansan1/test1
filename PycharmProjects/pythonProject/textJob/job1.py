@@ -19,7 +19,7 @@ def heapify(arr, n, i):
         arr[i], arr[max] = arr[max], arr[i]
         heapify(arr, n, max)  # 发生替换后的子节点受影响，继续递归构建
 
-
+# import torch
 # 堆排序
 def heap_sort(arr):
     n = len(arr)

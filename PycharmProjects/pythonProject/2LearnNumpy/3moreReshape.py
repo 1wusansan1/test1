@@ -7,7 +7,7 @@ print(a1)
 a2 = np.ones((3,))
 print(a2.shape)
 print('====================================全0的=============np.zeros((4,5), dtype=np.int32)')
-a3 = np.zeros((4, 5), dtype=np.int32)
+a3 = np.zeros((3, 4,4), dtype=np.int32)
 
 print(a3)
 print('=======================元素没有初始化的========================== np.empty((3,2))')
